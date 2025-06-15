@@ -1,0 +1,76 @@
+Configuration	ADC Project
+STM32CubeMX 	6.14.1
+Date	06/15/2025
+MCU	STM32C031C6Tx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN0	ADC1_IN0	PA0
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN (PF0)
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT (PF1)
+RCC	Crystal/Ceramic Resonator	RCC_OSCX_IN	PC14-OSCX_IN (PC14)
+RCC	Crystal/Ceramic Resonator	RCC_OSCX_OUT	PC15-OSCX_OUT (PC15)
+RTC	Activate RTC Clock Source	RTC_VS_RTC_Activate	VP_RTC_VS_RTC_Activate
+RTC	RTC Enabled	RTC_VS_RTC_Calendar	VP_RTC_VS_RTC_Calendar
+RTC	Internal Alarm A	RTC_VS_RTC_Alarm_A_Intern	VP_RTC_VS_RTC_Alarm_A_Intern
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC14-OSCX_IN (PC14)	RCC_OSCX_IN	RCC_OSCX_IN
+3	PC15-OSCX_OUT (PC15)	RCC_OSCX_OUT	RCC_OSCX_OUT
+8	PF0-OSC_IN (PF0)	RCC_OSC_IN	RCC_OSC_IN
+9	PF1-OSC_OUT (PF1)	RCC_OSC_OUT	RCC_OSC_OUT
+11	PA0	ADC1_IN0	
+35	PA13*	DEBUG_SWDIO	DEBUG_SWDIO
+36	PA14-BOOT0*	DEBUG_SWCLK	DEBUG_SWCLK
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN0	ADC1_IN0	PA0
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN (PF0)
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT (PF1)
+RCC	Crystal/Ceramic Resonator	RCC_OSCX_IN	PC14-OSCX_IN (PC14)
+RCC	Crystal/Ceramic Resonator	RCC_OSCX_OUT	PC15-OSCX_OUT (PC15)
+RTC	Activate RTC Clock Source	RTC_VS_RTC_Activate	VP_RTC_VS_RTC_Activate
+RTC	RTC Enabled	RTC_VS_RTC_Calendar	VP_RTC_VS_RTC_Calendar
+RTC	Internal Alarm A	RTC_VS_RTC_Alarm_A_Intern	VP_RTC_VS_RTC_Alarm_A_Intern
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC14-OSCX_IN (PC14)	RCC_OSCX_IN	RCC_OSCX_IN
+3	PC15-OSCX_OUT (PC15)	RCC_OSCX_OUT	RCC_OSCX_OUT
+8	PF0-OSC_IN (PF0)	RCC_OSC_IN	RCC_OSC_IN
+9	PF1-OSC_OUT (PF1)	RCC_OSC_OUT	RCC_OSC_OUT
+11	PA0	ADC1_IN0	
+35	PA13*	DEBUG_SWDIO	DEBUG_SWDIO
+36	PA14-BOOT0*	DEBUG_SWCLK	DEBUG_SWCLK
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : ADC Project
+Project Folder : C:\Users\requiem07\Downloads\Quantum Leaps\Test Project\ADC Project
+Toolchain / IDE : MDK-ARM V5.39
+Firmware Package Name and Version : STM32Cube FW_C0 V1.4.0
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
